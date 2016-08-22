@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+-This is CrimeActivity's container view for the fragment
+-CrimeActivity has it's own view called activity_crime
+-This defines the spot where the CrimeFragment's view will appear
+-CrimeFragment's view is fragment_crime
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_containe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</FrameLayout>
