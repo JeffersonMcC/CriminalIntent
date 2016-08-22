@@ -32,10 +32,8 @@ public class CrimeFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_crime, container, false);
         //1st Parameter: pass in the layout resource ID
         //2nd Parameter: view's parent
-        //3rd Parameter: tells the layout inflater to add the
-        //              inflated view to view's parent. You
-        //              pass in false you will add the view in
-        //              the activity's code.
+        //3rd Parameter: tells the layout inflater to add the inflated view to view's parent. You pass in false you will add the
+        //               view in the activity's code.
 
         mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.addTextChangedListener(new TextWatcher() {
