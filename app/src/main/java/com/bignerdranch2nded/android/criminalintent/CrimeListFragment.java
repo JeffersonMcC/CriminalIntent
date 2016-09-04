@@ -65,7 +65,8 @@ public class CrimeListFragment extends Fragment{
 
         @Override
         public void onClick(View v){
-            Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId());
+            Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId()); /*getId is a method in 'Crime.java'. The class
+            simply makes a random serializable using 'java.util.UUID;'*/
             startActivity(intent);
         }
     }
