@@ -4,35 +4,30 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="18944038276373"
+    timestamp="240798093617065"
     token="-5759410227305145891" >
 
     <task
         name="javac"
-        duration="301" />
+        duration="3888" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="174" />
+        duration="260" />
     <task
         name="verifier"
-        duration="10" />
+        duration="103" />
 
     <artifact
-        location="D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="15756143495961" >
+    <build timestamp="240798093617065" >
         <artifact
             location="D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="18944038276373" >
-        <artifact
-            location="D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

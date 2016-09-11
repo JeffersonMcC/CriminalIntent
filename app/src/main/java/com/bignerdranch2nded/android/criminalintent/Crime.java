@@ -1,5 +1,7 @@
 package com.bignerdranch2nded.android.criminalintent;
 
+import android.util.Log;
+
 import java.util.UUID;
 
 /**
@@ -11,8 +13,10 @@ public class Crime {
 
     private UUID mId;
     private String mTitle;
-    private Date mDate; //represents the data a crime occured
+    private Date mDate; //represents the data a crime occurred
     private boolean mSolved;    //represents whether the crime has been solved
+
+    private static final String TAG = "Crime";
 
     public Crime(){
         //Generate unique identifier
@@ -30,9 +34,10 @@ public class Crime {
 
     public void setTitle(String title) {
         mTitle = title;
-    }
+}
 
     public Date getDate() {
+        //Log.d(TAG, "getDate method started");
         return mDate;
     }
 

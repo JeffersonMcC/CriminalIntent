@@ -31,13 +31,9 @@ MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\Development\
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -62,14 +58,14 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:14:17-76
 	android:name
 		ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:14:27-74
-activity#com.bignerdranch2nded.android.criminalintent.CrimeActivity
+activity#com.bignerdranch2nded.android.criminalintent.CrimePagerActivity
 ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:17:9-21:20
 	android:label
 		ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:19:13-45
 	android:theme
 		ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:18:13-42
+		ADDED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml:18:13-47
 uses-sdk
 INJECTED from D:\Development\AndroidDevelopment\projects\CriminalIntent\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
@@ -88,15 +84,11 @@ MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\Development\
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:recyclerview-v7:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.3.0] D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
