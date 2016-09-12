@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_new_crime"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/new_crime"
+        app:showAsAction="ifRoom|withText"/>
+    <!--The showAsAction attribute refers to whether the item will appear in the toolbar itself
+   or in the overflow menu. Two values were combined. Both icon and text appear in the toolbar if there is room. If there is room for
+   the icon but not the text, then only the icon will be visible, or if there is no room, then both icon and text go to the overflow
+   menu.-->
+    <item
+        android:id="@+id/menu_item_show_subtitle"
+        android:title="@string/show_subtitle"
+        app:showAsAction="ifRoom"/>
+</menu>

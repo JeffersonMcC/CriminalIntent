@@ -8,12 +8,12 @@
         "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -172,12 +172,12 @@
         "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\src\\main\\res\\layout\\activity_fragment.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
@@ -204,12 +204,12 @@
         "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "D:\\Development\\AndroidDevelopment\\projects\\CriminalIntent\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",

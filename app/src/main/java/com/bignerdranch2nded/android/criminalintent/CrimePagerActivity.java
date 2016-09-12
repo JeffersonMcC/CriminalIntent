@@ -4,10 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 import java.util.List;
 import java.util.UUID;
@@ -15,7 +15,7 @@ import java.util.UUID;
 /**
  * Created by Jeffrow on 9/10/2016.
  */
-public class CrimePagerActivity extends FragmentActivity {
+public class CrimePagerActivity extends AppCompatActivity {
     private static final String EXTRA_CRIME_ID = "com.bignerdranch.android.criminalintent.crime_id";
 
     private ViewPager mViewPager;
@@ -34,13 +34,13 @@ public class CrimePagerActivity extends FragmentActivity {
 
         UUID crimeId = (UUID)getIntent().getSerializableExtra(EXTRA_CRIME_ID);
 
-        mViewPager = (ViewPager)findViewById(R.id.activity_crime_pager_view_pager); //find the ViewPager in the activity's view
+        mViewPager = (ViewPager)findViewById(R.id.activity_crime_pager_view_pager);//find the ViewPager in the activity's view
 
         mCrimes = CrimeLab.get(this).getCrimes();   //get data set from CrimeLab (the list of crimes)
         FragmentManager fragmentManager = getSupportFragmentManager();  //get activity's instance of FragmentManager
         mViewPager.setAdapter(new FragmentStatePagerAdapter(fragmentManager){   /*set the adapter to be an unnamed instance of
-        FragmentStatePage. Creating the FragmentStatePagerAdapter requires the FragmentManager. FragmentStatePagerAdapter is the agent
-        managing the conversation with ViewPager. */
+        FragmentStatePage. Creating the FragmentStatePagerAdapter requires the FragmentManager. FragmentStatePagerAdapter is
+        the agent managing the conversation with ViewPager. */
             @Override
             public Fragment getItem(int position){ //fetches the Crime instance for the given position in the dataset.
                 Crime crime = mCrimes.get(position);

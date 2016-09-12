@@ -29,14 +29,10 @@ public class CrimeLab {
 
     private CrimeLab(Context context){
         mCrimes = new ArrayList<>();    //polymorphism in action. Create an array list of unique Crime instances
-        for(int i = 0; i < 100; i++){   //create 100 instances of crime
-            Crime crime = new Crime();  //Crime is a class. An instance of it is a Crime instance with unique properties that have
-                                        //access to Crime methods
-            crime.setTitle("Crime #" + i);
-            crime.setSolved(i / 2 == 0);
-            mCrimes.add(crime);
-        }
-        Log.d(TAG, "All crimes created");
+    }
+
+    public void addCrime(Crime c){
+        mCrimes.add(c);
     }
 
     public List<Crime> getCrimes(){ //get the list of Crime instances
