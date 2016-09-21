@@ -23,7 +23,7 @@ AppCompat library. The AlertDialog that will do this will use android.support.v7
 When you use an AlertDialog, wrap it in an instance of DialogFragment (subclass of Fragment).*/
 public class DatePickerFragment extends DialogFragment{ //this fragment will be hosted by CrimePagerActivity
 //like all fragments, instances of DialogFragment are managed by the FragmentManager of the hosting activity
-    public static final String EXTRA_DATE = "com.bignerdranchended.android.criminalintent.date";
+    public static final String EXTRA_DATE = "com.bignerdranch2nded.android.criminalintent.date";
 
     private static final String ARG_DATE = "date";
 

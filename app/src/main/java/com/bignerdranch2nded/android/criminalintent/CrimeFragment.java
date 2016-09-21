@@ -50,13 +50,10 @@ public class CrimeFragment extends Fragment {
     This method creates the fragment instance and bundles up and sets its arguments.
     Hosting activity calls newInstance() method rather than constructor directly
     */
-        Log.d(TAG, "newInstance method started");
         Bundle args = new Bundle();
         args.putSerializable(ARG_CRIME_ID, crimeId);
 
-        Log.d(TAG, "default CrimeFragment constructor called");
         CrimeFragment fragment = new CrimeFragment();   //all classes have a default constructor
-        Log.d(TAG, "the crimeId is passed as an argument to a bundle that is attached to a certain fragment");
         fragment.setArguments(args);
         return fragment;
     }
@@ -76,7 +73,13 @@ public class CrimeFragment extends Fragment {
         /*getActivity() is used for fragments. 'getActivity()' in a fragment replaces the times you would use 'this' in an activity.
           'getActivity()' returns the Activity to which the fragment is associated. It get's the context of the Activity*/
         mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
-        Log.d(TAG, "getCrime in CrimeLab called from onCreate in CrimeFragment and is assigned to a Crime object variable");
+    }
+
+    @Override
+    public void onPause(){
+        super.onPause();
+
+        CrimeLab.get(getActivity()).updateCrime(mCrime);
     }
 
     @Override

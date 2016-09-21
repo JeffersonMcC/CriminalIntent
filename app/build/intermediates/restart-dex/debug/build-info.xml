@@ -4,7 +4,7 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="264605229032460"
+    timestamp="276471877641711"
     token="-5759410227305145891" >
 
     <task
@@ -20,19 +20,11 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-
-    <build timestamp="263506963405265" >
+    <build timestamp="276402623981539" >
         <artifact
             location="D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="264605229032460" >
-        <artifact
-            location="D:\Development\AndroidDevelopment\projects\CriminalIntent\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
+    <build timestamp="276471877641711" />
 
 </instant-run>

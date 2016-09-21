@@ -19,8 +19,11 @@ public class Crime {
     private static final String TAG = "Crime";
 
     public Crime(){
-        //Generate unique identifier
-        mId = UUID.randomUUID();
+        this(UUID.randomUUID());
+    }
+
+    public Crime(UUID id){
+        mId = id;
         mDate = new Date(); //sets mDate to the current date
     }
 
